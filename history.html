@@ -1,0 +1,177 @@
+<!--Name-Souvik Sil
+student Id- 658948518-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotional youtube webpage</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+
+<style>
+#header {
+    font-size: 36px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-top: 30px;
+    border-bottom: #888 thin solid;
+}
+body {
+        margin: 80px;
+        max-width: 1500px;
+        background-color: rgb(190, 169, 169);
+        margin-top: 0;
+    }
+    .col {
+    width: 850px;
+    height: fit-content;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(246, 134, 134);
+    text-align: justify;
+    padding: 5px;
+    background-color: rgba(130, 185, 167, 0.2); /* set opacity only for background */
+    margin-top: 100px;
+    margin-right: 64px;
+    opacity: 1;
+    float:left;
+  }
+    
+
+</style>
+</head>
+<!--history-->
+<body>
+
+    <div id="header">
+        History
+    </div>
+    <nav class="navbar">
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">About Us &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="history.html">History</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Services &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="fireplace.html">Fireplace</a>
+                    <a href="nature.html">Nature</a>
+                    <a href="silent_videos.html">Silent videos</a>
+                    <a href="visuals.html">Visuals</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Visit Us &#9662;</a>
+                <div class="dropdown-content">
+              
+                    <a href="https://www.youtube.com/channel/UCQTWNTxmGqDr2z5ViUB4GTQ" target="_blank">Go to my YouTube</a>
+                    <a href="mailto:fireplacevideo8@gmail.com">Email</a>
+
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropbtn">Why Us? &#9662;</a>
+                <div class="dropdown-content">
+                    <a href="future_goals.html">future goals</a>
+           
+            <li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+        
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p3U82sLJHUA?start=610" title="YouTube video player" style="margin-top: 5%;"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   
+    <video autoplay loop muted>
+        <source src="./photos/compressed2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <div class="col">
+        <p>
+      As someone who was struggling with the inconsistency of life in 2021, I decided to create a YouTube channel called Relaxing Videos. My aim was to provide a source of calmness and relaxation for myself and others during these uncertain times.
+
+I started with simple videos featuring nature sounds and calming images. It was a way for me to escape from the stresses of life and find a sense of peace. As the channel began to gain traction, I started to experiment with new types of content, such as fireplace videos and hallucinating videos. Each video showcased my creativity and dedication to creating a truly relaxing experience for my viewers.
+
+To my surprise, my channel began to grow rapidly. People from all over the world were tuning in to watch my videos and take a break from their busy lives.
+</p>
+</div>
+<div class="col">
+
+<p>  
+      The comments section became a place for viewers to interact with each other, sharing their own stories of how the videos had helped them find peace during difficult times.
+
+The feedback I received from my viewers was overwhelmingly positive, and it inspired me to continue creating new and exciting content. I started to collaborate with other creators, each bringing their own unique perspective to the channel. Together, we created an even more diverse range of content that catered to all types of viewers.
+
+The success of my channel has been a humbling experience. It has shown me that in times of uncertainty and chaos, there is still a need for moments of calmness and tranquility. I am grateful for the opportunity to create a space for people to find that sense of peace, and I hope to continue doing so for as long as possible.
+</p>
+</div>
+
+
+
+<img src="./photos/ancient.png" alt="" height="500" width="500" style="margin-top: 15%; left: 5%; opacity:0.56;">
+
+<div class="feedback-form-container">
+    <button class="feedback-button" id="feedback-button">Feedback</button>
+    <div class="feedback-form" id="feedback-form">
+        <h2>Feedback:</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+
+<script>
+    const feedbackButton = document.getElementById('feedback-button');
+    const feedbackForm = document.getElementById('feedback-form');
+
+    feedbackButton.addEventListener('click', function () {
+        if (feedbackForm.style.display === 'none') {
+            feedbackForm.style.display = 'block';
+        }
+        else {
+            feedbackForm.style.display = 'none';
+        }
+    });
+</script>
+<footer>
+    <div class="marquee">
+        <span>Thankyou for visiting! please Subscribe the channel.</span>
+    </div>
+</footer>
+
+
+
+  
+<!--font size 35 left align notes easy to read should be in a transparent box, possibly running yt link on
+the left
+
+services- fireplace, nature, silent, hallucianting 
+product used- davinci resolve, photoshop, -->
+
+</body>
+
+</html>
