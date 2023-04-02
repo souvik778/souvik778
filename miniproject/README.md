@@ -1,4 +1,4 @@
-# miniproject
+# Miniproject
 Name – Souvik Sil
 Student Id- 658948518
 
@@ -12,7 +12,8 @@ Features used other than basic are:
 
 •	Feedback button and its functionality, using Java Script.
 
-•	Inserting video elements using <iframe> and <video> element.
+•	Inserting video elements using <iframe> 
+and <video> element.
 
 •	Use of nav bar
 
