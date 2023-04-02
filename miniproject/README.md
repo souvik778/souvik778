@@ -2,6 +2,8 @@
 Name – Souvik Sil
 Student Id- 658948518
 
+index.html is the home page.
+
 I tried to keep my webpage simple and interactive just using Html, CSS and Java Script.
 Recommended to view in full screen mode, as resolutions not calibarated.
 Features used other than basic are:
