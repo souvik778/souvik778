@@ -1,4 +1,4 @@
-# miniproject
+# Miniproject
 Name – Souvik Sil
 Student Id- 658948518
 
