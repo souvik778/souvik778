@@ -1,6 +1,7 @@
 # miniproject
 Name – Souvik Sil
 Student Id- 658948518
+
 I tried to keep my webpage simple and interactive just using Html, CSS and Java Script.
 Recommended to view in full screen mode, as resolutions not calibarated.
 Features used other than basic are:
